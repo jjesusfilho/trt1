@@ -1,2 +1,5 @@
 ^trt1\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^\.github$
+^LICENSE\.md$

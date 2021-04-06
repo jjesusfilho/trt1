@@ -1,5 +1,5 @@
 Package: trt1
-Title: What the Package Does (One Line, Title Case)
+Title: Baixa e Organiza Dados Processuais do TRT1
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jose",
@@ -7,7 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jose@consudata.com.br",
            comment = c(ORCID = "https://orcid.org/0000-0001-7415-7383"))
-Description: What the package does (one paragraph).
+Description: Baixa e organiza dados processuais do Tribunal Regional do Trabalho da 
+    Primeira Região.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: pt_BR
@@ -15,7 +16,8 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
-    roxygen2
+    roxygen2,
+    magick
 Imports: 
     rlang (>= 0.1.2),
     magrittr,
@@ -26,6 +28,9 @@ Imports:
     httr,
     xml2,
     tibble,
-    progress
+    progress,
+    tidyr,
+    janitor,
+    rvest
 URL: https://github.com/jjesusfilho/trt1
 BugReports: https://github.com/jjesusfilho/trt1/issues
